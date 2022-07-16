@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "@vue/reactivity";
+import { ref } from "vue";
 
 const price = ref(50000)
 setInterval(()=>{
